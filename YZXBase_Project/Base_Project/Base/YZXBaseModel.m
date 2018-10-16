@@ -10,4 +10,9 @@
 
 @implementation YZXBaseModel
 
++ (NSDictionary *)mj_replacedKeyFromPropertyName
+{
+    return @{@"ID":@"id"};
+}
+
 @end
