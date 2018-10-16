@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+target 'Base_Project' do
+
+	pod 'AFNetworking'
+	pod 'Masonry'
+	pod 'SDWebImage'
+	pod 'MJExtension'
+	pod 'MJRefresh'
+ 	pod 'IQKeyboardManager'
+	pod 'MBProgressHUD'
+
+end
