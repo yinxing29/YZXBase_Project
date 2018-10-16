@@ -10,6 +10,6 @@
 
 @interface UINavigationController (frame)
 
-- (CGFloat)YZX_navagationBarHeight;
+- (CGFloat)yzx_navagationBarHeight;
 
 @end

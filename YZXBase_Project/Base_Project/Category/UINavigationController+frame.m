@@ -10,7 +10,7 @@
 
 @implementation UINavigationController (frame)
 
-- (CGFloat)YZX_navagationBarHeight
+- (CGFloat)yzx_navagationBarHeight
 {
     return self.navigationBar.frame.size.height;
 }

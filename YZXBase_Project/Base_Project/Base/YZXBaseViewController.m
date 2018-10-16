@@ -1,6 +1,6 @@
 //
 //  YZXBaseViewController.m
-//  YZX_Base_Project
+//  yzx_Base_Project
 //
 //  Created by 尹星 on 2018/5/24.
 //  Copyright © 2018年 尹星. All rights reserved.
@@ -14,7 +14,7 @@
 
 @implementation YZXBaseViewController
 
-- (void)settingNavigationBarBackgroundColor:(UIColor *)color
+- (void)yzx_settingNavigationBarBackgroundColor:(UIColor *)color
 {
     if (color) {
         [self.navigationController.navigationBar setBarTintColor:color];
@@ -24,7 +24,7 @@
     }
 }
 
-- (void)hideNavigationBarSplitLine:(BOOL)isHide
+- (void)yzx_hideNavigationBarSplitLine:(BOOL)isHide
 {
     if (isHide) {
         [self.navigationController.navigationBar setShadowImage:[UIImage new]];
@@ -33,29 +33,21 @@
     }
 }
 
-- (CGFloat)YZX_width
+- (void)yzx_hideTabBarSplitLine:(BOOL)isHide
 {
-    return self.view.frame.size.width;
-}
-
-- (CGFloat)YZX_height
-{
-    return self.view.frame.size.height;
-}
-
-- (CGFloat)YZX_x
-{
-    return self.view.frame.origin.x;
-}
-
-- (CGFloat)YZX_y
-{
-    return self.view.frame.origin.y;
+    if (self.tabBarController && isHide) {
+        [self.tabBarController.tabBar setShadowImage:[UIImage new]];
+        [self.tabBarController.tabBar setBackgroundImage:[UIImage new]];
+    }else {
+        [self.tabBarController.tabBar setShadowImage:nil];
+        [self.tabBarController.tabBar setBackgroundImage:nil];
+    }
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

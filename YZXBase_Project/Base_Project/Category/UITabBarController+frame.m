@@ -10,7 +10,7 @@
 
 @implementation UITabBarController (frame)
 
-- (CGFloat)YZX_tabBarHeight
+- (CGFloat)yzx_tabBarHeight
 {
     return self.tabBar.frame.size.height;
 }

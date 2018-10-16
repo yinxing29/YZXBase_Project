@@ -26,6 +26,7 @@
 - (void)initTabBarController
 {
     YZXBaseTabBarController *tabBar = [[YZXBaseTabBarController alloc] initTabBarController];
+    tabBar.tabBar.tintColor = [UIColor orangeColor];
     self.window.rootViewController = tabBar;
     [self.window makeKeyAndVisible];
 }

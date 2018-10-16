@@ -10,6 +10,6 @@
 
 @interface UITabBarController (frame)
 
-- (CGFloat)YZX_tabBarHeight;
+- (CGFloat)yzx_tabBarHeight;
 
 @end

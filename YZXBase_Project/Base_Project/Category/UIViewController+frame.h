@@ -10,9 +10,9 @@
 
 @interface UIViewController (frame)
 
-- (CGFloat)YZX_height;
-- (CGFloat)YZX_width;
-- (CGFloat)YZX_y;
-- (CGFloat)YZX_x;
+- (CGFloat)yzx_height;
+- (CGFloat)yzx_width;
+- (CGFloat)yzx_y;
+- (CGFloat)yzx_x;
 
 @end

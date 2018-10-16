@@ -10,22 +10,22 @@
 
 @implementation UIView (frame)
 
-- (CGFloat)YZX_width
+- (CGFloat)yzx_width
 {
     return self.frame.size.width;
 }
 
-- (CGFloat)YZX_height
+- (CGFloat)yzx_height
 {
     return self.frame.size.height;
 }
 
-- (CGFloat)YZX_x
+- (CGFloat)yzx_x
 {
     return self.frame.origin.x;
 }
 
-- (CGFloat)YZX_y
+- (CGFloat)yzx_y
 {
     return self.frame.origin.y;
 }

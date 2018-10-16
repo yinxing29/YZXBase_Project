@@ -1,6 +1,6 @@
 //
 //  YZXBaseViewController.h
-//  YZX_Base_Project
+//  yzx_Base_Project
 //
 //  Created by 尹星 on 2018/5/24.
 //  Copyright © 2018年 尹星. All rights reserved.
@@ -15,18 +15,21 @@
 
  @param color 为nil的时候为透明。否则为设置的颜色
  */
-- (void)settingNavigationBarBackgroundColor:(UIColor *)color;
+- (void)yzx_settingNavigationBarBackgroundColor:(UIColor *)color;
 
 /**
  是否隐藏navigationBar分割线
 
  @param isHide YES：隐藏，NO，不隐藏
  */
-- (void)hideNavigationBarSplitLine:(BOOL)isHide;
+- (void)yzx_hideNavigationBarSplitLine:(BOOL)isHide;
 
-- (CGFloat)YZX_height;
-- (CGFloat)YZX_width;
-- (CGFloat)YZX_y;
-- (CGFloat)YZX_x;
+/**
+ 是否隐藏tabBar分割线
+
+ @param isHide YES：隐藏，NO，不隐藏
+ */
+- (void)yzx_hideTabBarSplitLine:(BOOL)isHide;
+
 
 @end

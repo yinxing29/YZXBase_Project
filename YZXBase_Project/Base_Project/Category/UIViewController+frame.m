@@ -10,22 +10,22 @@
 
 @implementation UIViewController (frame)
 
-- (CGFloat)YZX_width
+- (CGFloat)yzx_width
 {
     return self.view.frame.size.width;
 }
 
-- (CGFloat)YZX_height
+- (CGFloat)yzx_height
 {
     return self.view.frame.size.height;
 }
 
-- (CGFloat)YZX_x
+- (CGFloat)yzx_x
 {
     return self.view.frame.origin.x;
 }
 
-- (CGFloat)YZX_y
+- (CGFloat)yzx_y
 {
     return self.view.frame.origin.y;
 }
