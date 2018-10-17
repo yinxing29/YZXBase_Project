@@ -14,8 +14,10 @@
  设置navigationBar的背景色
 
  @param color 为nil的时候为透明。否则为设置的颜色
+ @param alpha 透明度
  */
-- (void)yzx_settingNavigationBarBackgroundColor:(UIColor *)color;
+- (void)yzx_settingNavigationBarBackgroundColor:(UIColor *)color
+                                          alpha:(double)alpha;
 
 /**
  是否隐藏navigationBar分割线
@@ -31,5 +33,13 @@
  */
 - (void)yzx_hideTabBarSplitLine:(BOOL)isHide;
 
+/**
+ 设置title样式
+ 
+ @param color title文本颜色
+ @param font title文本大小
+ */
+- (void)yzx_settingTitleColor:(UIColor *)color
+                         font:(UIFont *)font;
 
 @end

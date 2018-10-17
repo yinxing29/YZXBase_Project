@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		0D070A242175D3520093EC5F /* YZXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D070A232175D3520093EC5F /* YZXBaseModel.m */; };
 		0D070A272175D35F0093EC5F /* YZXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D070A262175D35F0093EC5F /* YZXBaseViewModel.m */; };
+		8524EE282176DBB200258ABF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE272176DBB200258ABF /* FirstViewController.m */; };
+		8524EE2B2176DBBA00258ABF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE2A2176DBBA00258ABF /* SecondViewController.m */; };
+		8524EE2E2176E25900258ABF /* UIColor+YZXHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE2D2176E25900258ABF /* UIColor+YZXHexadecimal.m */; };
+		8524EE312176E49100258ABF /* UIButton+TitleImageEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE302176E49000258ABF /* UIButton+TitleImageEdgeInsets.m */; };
+		8524EE342176E55600258ABF /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE332176E55600258ABF /* NSString+Size.m */; };
+		8524EE392176E66600258ABF /* YZXMD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE382176E66600258ABF /* YZXMD5Encrypt.m */; };
+		8524EE3D2176E71100258ABF /* YZXRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE3B2176E71100258ABF /* YZXRegularExpression.m */; };
+		8524EE412176E7EE00258ABF /* YZXAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE3F2176E7EE00258ABF /* YZXAdaptive.m */; };
+		8524EE452176E9F600258ABF /* YZXAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE442176E9F600258ABF /* YZXAppInfo.m */; };
 		85653B2D20B798B7004B3DEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85653B2C20B798B7004B3DEE /* AppDelegate.m */; };
 		85653B3320B798B8004B3DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85653B3120B798B8004B3DEE /* Main.storyboard */; };
 		85653B3520B798B9004B3DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85653B3420B798B9004B3DEE /* Assets.xcassets */; };
@@ -55,6 +64,24 @@
 		0D070A262175D35F0093EC5F /* YZXBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXBaseViewModel.m; sourceTree = "<group>"; };
 		6215FE396E6CF541CB95162A /* libPods-Base_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Base_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF6CD8C9F6B1CFCAD3E15FB /* Pods-Base_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Base_Project/Pods-Base_Project.release.xcconfig"; sourceTree = "<group>"; };
+		8524EE262176DBB200258ABF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8524EE272176DBB200258ABF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8524EE292176DBBA00258ABF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8524EE2A2176DBBA00258ABF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8524EE2C2176E25900258ABF /* UIColor+YZXHexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YZXHexadecimal.h"; sourceTree = "<group>"; };
+		8524EE2D2176E25900258ABF /* UIColor+YZXHexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YZXHexadecimal.m"; sourceTree = "<group>"; };
+		8524EE2F2176E49000258ABF /* UIButton+TitleImageEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleImageEdgeInsets.h"; sourceTree = "<group>"; };
+		8524EE302176E49000258ABF /* UIButton+TitleImageEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleImageEdgeInsets.m"; sourceTree = "<group>"; };
+		8524EE322176E55600258ABF /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		8524EE332176E55600258ABF /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		8524EE372176E66600258ABF /* YZXMD5Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXMD5Encrypt.h; sourceTree = "<group>"; };
+		8524EE382176E66600258ABF /* YZXMD5Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXMD5Encrypt.m; sourceTree = "<group>"; };
+		8524EE3B2176E71100258ABF /* YZXRegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXRegularExpression.m; sourceTree = "<group>"; };
+		8524EE3C2176E71100258ABF /* YZXRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXRegularExpression.h; sourceTree = "<group>"; };
+		8524EE3F2176E7EE00258ABF /* YZXAdaptive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXAdaptive.m; sourceTree = "<group>"; };
+		8524EE402176E7EE00258ABF /* YZXAdaptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXAdaptive.h; sourceTree = "<group>"; };
+		8524EE432176E9F600258ABF /* YZXAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXAppInfo.h; sourceTree = "<group>"; };
+		8524EE442176E9F600258ABF /* YZXAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXAppInfo.m; sourceTree = "<group>"; };
 		85653B2820B798B7004B3DEE /* Base_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85653B2B20B798B7004B3DEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85653B2C20B798B7004B3DEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,6 +158,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8524EE352176E63300258ABF /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		8524EE362176E66600258ABF /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				8524EE372176E66600258ABF /* YZXMD5Encrypt.h */,
+				8524EE382176E66600258ABF /* YZXMD5Encrypt.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		8524EE3A2176E71100258ABF /* RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				8524EE3C2176E71100258ABF /* YZXRegularExpression.h */,
+				8524EE3B2176E71100258ABF /* YZXRegularExpression.m */,
+			);
+			path = RegularExpression;
+			sourceTree = "<group>";
+		};
+		8524EE3E2176E7EE00258ABF /* Adaptive */ = {
+			isa = PBXGroup;
+			children = (
+				8524EE402176E7EE00258ABF /* YZXAdaptive.h */,
+				8524EE3F2176E7EE00258ABF /* YZXAdaptive.m */,
+			);
+			path = Adaptive;
+			sourceTree = "<group>";
+		};
+		8524EE422176E9F600258ABF /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8524EE432176E9F600258ABF /* YZXAppInfo.h */,
+				8524EE442176E9F600258ABF /* YZXAppInfo.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
 		85653B1F20B798B7004B3DEE = {
 			isa = PBXGroup;
 			children = (
@@ -158,9 +228,14 @@
 			children = (
 				85653B2B20B798B7004B3DEE /* AppDelegate.h */,
 				85653B2C20B798B7004B3DEE /* AppDelegate.m */,
+				8524EE262176DBB200258ABF /* FirstViewController.h */,
+				8524EE272176DBB200258ABF /* FirstViewController.m */,
+				8524EE292176DBBA00258ABF /* SecondViewController.h */,
+				8524EE2A2176DBBA00258ABF /* SecondViewController.m */,
 				85653B5D20B79906004B3DEE /* Base */,
 				85653BAB20B7A45F004B3DEE /* config */,
 				85653BB520B7BCE4004B3DEE /* Category */,
+				8524EE352176E63300258ABF /* Thirdparty */,
 				85653B3120B798B8004B3DEE /* Main.storyboard */,
 				85653B3420B798B9004B3DEE /* Assets.xcassets */,
 				85653B3620B798B9004B3DEE /* LaunchScreen.storyboard */,
@@ -208,6 +283,10 @@
 		85653BAB20B7A45F004B3DEE /* config */ = {
 			isa = PBXGroup;
 			children = (
+				8524EE422176E9F600258ABF /* AppInfo */,
+				8524EE3E2176E7EE00258ABF /* Adaptive */,
+				8524EE3A2176E71100258ABF /* RegularExpression */,
+				8524EE362176E66600258ABF /* MD5 */,
 				85653BAC20B7A46D004B3DEE /* YZXConfig.h */,
 				85653BB420B7B768004B3DEE /* YZXDefine.h */,
 				0D070A1E21758BC50093EC5F /* YZXNotificationDefine.h */,
@@ -222,6 +301,10 @@
 		85653BB520B7BCE4004B3DEE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8524EE2F2176E49000258ABF /* UIButton+TitleImageEdgeInsets.h */,
+				8524EE302176E49000258ABF /* UIButton+TitleImageEdgeInsets.m */,
+				8524EE2C2176E25900258ABF /* UIColor+YZXHexadecimal.h */,
+				8524EE2D2176E25900258ABF /* UIColor+YZXHexadecimal.m */,
 				85653BBC20B7DA35004B3DEE /* UIViewController+frame.h */,
 				85653BBD20B7DA35004B3DEE /* UIViewController+frame.m */,
 				85653BB620B7BCFD004B3DEE /* UIView+frame.h */,
@@ -230,6 +313,8 @@
 				85653BC020B7DA49004B3DEE /* UINavigationController+frame.m */,
 				85653BC220B7DA54004B3DEE /* UITabBarController+frame.h */,
 				85653BC320B7DA54004B3DEE /* UITabBarController+frame.m */,
+				8524EE322176E55600258ABF /* NSString+Size.h */,
+				8524EE332176E55600258ABF /* NSString+Size.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -415,13 +500,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8524EE392176E66600258ABF /* YZXMD5Encrypt.m in Sources */,
 				85653B6420B79906004B3DEE /* YZXBaseNavigationController.m in Sources */,
+				8524EE2B2176DBBA00258ABF /* SecondViewController.m in Sources */,
 				85653B6620B79906004B3DEE /* YZXBaseViewController.m in Sources */,
+				8524EE412176E7EE00258ABF /* YZXAdaptive.m in Sources */,
+				8524EE3D2176E71100258ABF /* YZXRegularExpression.m in Sources */,
 				0D070A272175D35F0093EC5F /* YZXBaseViewModel.m in Sources */,
 				85653B6520B79906004B3DEE /* YZXBaseTabBarController.m in Sources */,
+				8524EE2E2176E25900258ABF /* UIColor+YZXHexadecimal.m in Sources */,
 				85653B3B20B798B9004B3DEE /* main.m in Sources */,
 				85653BC120B7DA49004B3DEE /* UINavigationController+frame.m in Sources */,
+				8524EE342176E55600258ABF /* NSString+Size.m in Sources */,
 				85653B2D20B798B7004B3DEE /* AppDelegate.m in Sources */,
+				8524EE282176DBB200258ABF /* FirstViewController.m in Sources */,
+				8524EE452176E9F600258ABF /* YZXAppInfo.m in Sources */,
+				8524EE312176E49100258ABF /* UIButton+TitleImageEdgeInsets.m in Sources */,
 				0D070A242175D3520093EC5F /* YZXBaseModel.m in Sources */,
 				85653BC420B7DA54004B3DEE /* UITabBarController+frame.m in Sources */,
 				85653BB820B7BCFD004B3DEE /* UIView+frame.m in Sources */,

@@ -8,7 +8,8 @@
 
 #import "YZXBaseTabBarController.h"
 #import "YZXBaseNavigationController.h"
-#import "YZXBaseViewController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface YZXBaseTabBarController ()
 
@@ -20,10 +21,10 @@
 {
     self = [super init];
     if (self) {
-        YZXBaseViewController *firstVC = [[YZXBaseViewController alloc] init];
+        FirstViewController *firstVC = [[FirstViewController alloc] init];
         YZXBaseNavigationController *firstNavigationN = [[YZXBaseNavigationController alloc] initWithRootViewController:firstVC];
         
-        YZXBaseViewController *secondVC = [[YZXBaseViewController alloc] init];
+        SecondViewController *secondVC = [[SecondViewController alloc] init];
         YZXBaseNavigationController *secondNavigationC = [[YZXBaseNavigationController alloc] initWithRootViewController:secondVC];
         
         [self yzx_setTabBarItemViewController:firstNavigationN
