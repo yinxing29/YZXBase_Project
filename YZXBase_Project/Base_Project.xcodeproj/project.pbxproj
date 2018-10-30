@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D070A242175D3520093EC5F /* YZXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D070A232175D3520093EC5F /* YZXBaseModel.m */; };
 		0D070A272175D35F0093EC5F /* YZXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D070A262175D35F0093EC5F /* YZXBaseViewModel.m */; };
+		8501D82F21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8501D82E21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.m */; };
 		8524EE282176DBB200258ABF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE272176DBB200258ABF /* FirstViewController.m */; };
 		8524EE2B2176DBBA00258ABF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE2A2176DBBA00258ABF /* SecondViewController.m */; };
 		8524EE2E2176E25900258ABF /* UIColor+YZXHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8524EE2D2176E25900258ABF /* UIColor+YZXHexadecimal.m */; };
@@ -64,6 +65,8 @@
 		0D070A262175D35F0093EC5F /* YZXBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXBaseViewModel.m; sourceTree = "<group>"; };
 		6215FE396E6CF541CB95162A /* libPods-Base_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Base_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF6CD8C9F6B1CFCAD3E15FB /* Pods-Base_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Base_Project/Pods-Base_Project.release.xcconfig"; sourceTree = "<group>"; };
+		8501D82D21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8501D82E21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		8524EE262176DBB200258ABF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8524EE272176DBB200258ABF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		8524EE292176DBBA00258ABF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -158,6 +161,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8501D82B21888A32005CBEB9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8501D82C21888A4A005CBEB9 /* YZXCollectionViewFlowLayout */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8501D82C21888A4A005CBEB9 /* YZXCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8501D82D21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.h */,
+				8501D82E21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.m */,
+			);
+			path = YZXCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
 		8524EE352176E63300258ABF /* Thirdparty */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +256,7 @@
 				85653BAB20B7A45F004B3DEE /* config */,
 				85653BB520B7BCE4004B3DEE /* Category */,
 				8524EE352176E63300258ABF /* Thirdparty */,
+				8501D82B21888A32005CBEB9 /* Custom */,
 				85653B3120B798B8004B3DEE /* Main.storyboard */,
 				85653B3420B798B9004B3DEE /* Assets.xcassets */,
 				85653B3620B798B9004B3DEE /* LaunchScreen.storyboard */,
@@ -504,6 +525,7 @@
 				85653B6420B79906004B3DEE /* YZXBaseNavigationController.m in Sources */,
 				8524EE2B2176DBBA00258ABF /* SecondViewController.m in Sources */,
 				85653B6620B79906004B3DEE /* YZXBaseViewController.m in Sources */,
+				8501D82F21888A4A005CBEB9 /* YZXCollectionViewFlowLayout.m in Sources */,
 				8524EE412176E7EE00258ABF /* YZXAdaptive.m in Sources */,
 				8524EE3D2176E71100258ABF /* YZXRegularExpression.m in Sources */,
 				0D070A272175D35F0093EC5F /* YZXBaseViewModel.m in Sources */,
