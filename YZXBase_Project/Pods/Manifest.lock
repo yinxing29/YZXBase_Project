@@ -24,13 +24,13 @@ PODS:
   - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
-  - AFNetworking
-  - IQKeyboardManager
-  - Masonry
-  - MBProgressHUD
-  - MJExtension
-  - MJRefresh
-  - SDWebImage
+  - AFNetworking (~> 3.2.1)
+  - IQKeyboardManager (~> 6.1.1)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - MJExtension (~> 3.0.15.1)
+  - MJRefresh (~> 3.1.15.7)
+  - SDWebImage (~> 4.4.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -51,6 +51,6 @@ SPEC CHECKSUMS:
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: 2d767983a1159eead2e6c00d0a856c67e21b360c
+PODFILE CHECKSUM: e68e1456d3c9708c7db57dd6d2d80596c3863678
 
 COCOAPODS: 1.5.3

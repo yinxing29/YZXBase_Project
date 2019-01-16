@@ -2,12 +2,12 @@ platform :ios, '8.0'
 
 target 'Base_Project' do
 
-	pod 'AFNetworking'
-	pod 'Masonry'
-	pod 'SDWebImage'
-	pod 'MJExtension'
-	pod 'MJRefresh'
- 	pod 'IQKeyboardManager'
-	pod 'MBProgressHUD'
+	pod 'AFNetworking', '~> 3.2.1'
+	pod 'Masonry', '~> 1.1.0'
+	pod 'SDWebImage', '~> 4.4.2'
+	pod 'MJExtension', '~> 3.0.15.1'
+	pod 'MJRefresh', '~> 3.1.15.7'
+ 	pod 'IQKeyboardManager', '~> 6.1.1'
+	pod 'MBProgressHUD', '~> 1.1.0'
 
 end
